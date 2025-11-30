@@ -1,0 +1,23 @@
+{
+  "name": "playwrightframework",
+  "version": "1.0.0",
+  "description": "A complete end-to-end **Playwright automation starter framework** built\r using **Node.js & TypeScript**, supporting cross-browser execution,\r parallel testing, debugging, HTML reporting, and modern automation\r capabilities.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeswanthindana/playwrightframework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yeswanthindana/playwrightframework/issues"
+  },
+  "homepage": "https://github.com/yeswanthindana/playwrightframework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+  }
+}
