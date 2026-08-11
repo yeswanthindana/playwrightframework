@@ -1,0 +1,43 @@
+{
+    // OBJECTIVE: This file configures the TypeScript compiler (tsc). It tells TypeScript how to compile
+    // our .ts files into standard .js files, what strict checks to apply, and which folders to include.
+
+    "compilerOptions": {
+        // 1. Specifies which modern JavaScript version the compiled code should target (ESNext = the latest features).
+        "target": "ESNext",
+
+        // 2. Specifies that the compiled JavaScript should use the CommonJS module system (standard for Node.js backend).
+        "module": "commonjs",
+
+        // 3. Enables strict type-checking checks. This enforces cleaner, safer code and helps catch bugs early.
+        "strict": true,
+
+        // 4. Allows importing data directly from static JSON files (e.g., import data from './data.json') as typed objects.
+        "resolveJsonModule": true,
+
+        // 5. Ensures compatibility when importing legacy libraries (CommonJS module styles) using modern ES6 imports.
+        "esModuleInterop": true,
+
+        // 6. Explicitly lists the type definitions loaded in our environment: Node.js core library types and Playwright test types.
+        "types": ["node", "@playwright/test"],
+
+        // 7. Skips checking type safety inside third-party dependencies/libraries (saves compilation time).
+        "skipLibCheck": true,
+
+        // 8. Enforces checking if an array/object index could potentially be undefined (e.g., checks if array[5] actually exists).
+        "noUncheckedIndexedAccess": true,
+
+        // 10. Path mapping definitions.
+        "paths": {
+            "@src/*": ["./src/*"],
+            "@tests/*": ["./tests/*"]
+        }
+    },
+
+    // 9. Tells the TypeScript compiler which directories and files to scan, build, and include in type safety checks.
+    "include": [
+        "e2e/**/*.ts", // Includes all files inside the e2e folder.
+        "src/**/*.ts", // Includes all files inside the src folder.
+        "tests/**/*.ts" // Includes all files inside the tests folder.
+    ]
+}

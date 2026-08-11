@@ -1,0 +1,26 @@
+{
+    "validComputeNodes": {
+        "name": "GPU-Node-3",
+        "ipAddressInput": "192.168.20.187",
+        "framesFolderPath": "/",
+        "membername": "aether",
+        "password": "aether@726",
+        "node_message": "Node connection successful",
+        "max_no_of_streams": 20,
+        "toast_message": "GPU Node created successfully",
+        "popup_message": "Are you sure you want to delete this GPU Node?",
+
+        "host_name": "",
+        "gpu_count": 1,
+        "config_details": "",
+        "createdBy": 1
+    },
+    "updateComputeNode": {
+        "updated_name": "QA Node-3",
+        "updated_max_no_of_streams": 50,
+        "updated_computeNode_toast_message": "GPU Node updated successfully"
+    },
+    "deleteComputeNode": {
+        "delete_computeNode_toast_message": "GPU Node deleted successfully"
+    }
+}

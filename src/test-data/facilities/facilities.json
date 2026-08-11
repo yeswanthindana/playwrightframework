@@ -1,0 +1,27 @@
+{
+    "validFacility": {
+        "facilityName": "Mumbai",
+        "facilityAddressLineOne": "Powai",
+        "facilityAddressLineTwo": "Ghatkopar",
+        "city": "Mumbai",
+        "pinCode": "400076",
+        "state": "Maharashtra",
+        "country": "India",
+        "regionName": "IIT Bombay",
+        "verifyToastMessage": "Facility created successfully"
+    },
+    "editFacility": {
+        "facilityName": "New Mumbai",
+        "facilityAddressLineOne": "Powai",
+        "facilityAddressLineTwo": "Hiranandani",
+        "city": "Mumbai",
+        "pinCode": "400078",
+        "state": "Maharashtra",
+        "country": "India",
+        "regionName": "IIT",
+        "verifyToastMessage": "Facility updated successfully"
+    },
+    "deleteFacility": {
+        "verifyToastMessage": "Facility deleted successfully"
+    }
+}

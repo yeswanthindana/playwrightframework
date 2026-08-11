@@ -1,0 +1,58 @@
+{
+    "addDeviceStreams": {
+        "aetherStreams": {
+            "streamName":"Biometric Exit Stream",
+            "description": "Indoor biometric exit access area within the corporate office. The stream monitors the biometric attendance device, access-controlled exit door, employee exit pathway, and adjacent office corridor. Typical objects include employees, visitors, security personnel, access doors, biometric attendance devices, ID cards, access badges, bags, laptops, and office equipment. Common activities include employees marking exit attendance, leaving the office, access verification, visitor exit, security monitoring, and routine personnel movement. The scene also supports detection of tailgating (piggybacking), unauthorized exit, multiple people exiting on a single authentication, loitering near the exit, and other suspicious access behaviour.",
+            "facility": "Aether Technologies",
+            "regionName": "Reception Area",
+            "selectComputeNode": "QA Node - 2",
+            "feedType": "RTSP",
+            "rtspLink": "rtsp://admin:123456@192.168.20.215:554/live/ch0",
+            "validationMessage":"Stream verified successfully",
+            "regionName": "Biometric Region",
+            "toastMessage":"Stream added successfully!"
+        }, 
+        
+        "emptyStreamName": {
+            "streamName": "",
+            "validationMessage":"Stream name is required."
+        }, 
+
+        "emptyFacility": {
+            "facility":"",
+            "validationMessage":"Facility is required."
+        }, 
+
+        "emptyComputeNode": {
+            "selectComputeNode": "",
+            "validationMessage": "GPU Node is required."
+        },
+
+        "emptyRTSPLink":{
+            "rtspLink":"",
+            "validationMessage":"RTSP link is not verified."
+        },
+
+        "emptyRegionName":{
+            "regionName":"",
+            "validationMessage":"Region name is required."
+        }
+    }, 
+    
+    "updateDeviceStreams": {
+        "withStreamName":{
+            "streamName":"Updated Biometric Exit Stream Name",
+            "toastMessage":"Stream updated successfully"
+        },
+        "withRTSPLink": {
+            "rtspLink":"rtsp://admin:123456@192.168.20.212:554/live/ch0",
+            "toastMessage":"Stream updated successfully"
+        }
+    },
+    
+    "deleteStreamRegions":{
+        "streamName":"Updated Biometric Exit Stream Name",
+        "deleteConfirmationMessage": "Are you sure you want to proceed with deletion? This item may be used in other configurations.",
+        "toastMessage":"stream deleted successfully"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "addProfile": {
+        "profileName": "Automated Added Member",
+        "profileDescription": "Profile description added during execution of Automation code",
+        "toastMessage": "Created successfully."
+    },
+    "editProfile": {
+        "profileName": "Automated Edited Member",
+        "profileDescription": "Profile description edited during execution of Automation code",
+        "toastMessage": "Profile updated successfully."
+    },
+    "deleteProfile": {
+        "toastMessage": "Profile deleted successfully."
+    }
+}

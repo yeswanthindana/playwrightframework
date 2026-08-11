@@ -1,0 +1,93 @@
+{
+  "TC-LOC-001": {
+    "jiraKey": "EVR-1146",
+    "testFile": "tests/ui/facilities/createFacility.spec.ts",
+    "sprintId": "598",
+    "workbook": "resources/facility_test_cases.xlsx",
+    "sheet": "Facilities"
+  },
+  "TC-LOC-002": {
+    "jiraKey": "EVR-1160",
+    "testFile": "tests/ui/facilities/editFacility.spec.ts",
+    "sprintId": "598",
+    "workbook": "resources/facility_test_cases.xlsx",
+    "sheet": "Facilities"
+  },
+  "TC-LOC-003": {
+    "jiraKey": "EVR-1161",
+    "testFile": "tests/ui/facilities/editFacility.spec.ts",
+    "sprintId": "598",
+    "workbook": "resources/facility_test_cases.xlsx",
+    "sheet": "Facilities"
+  },
+  "TC-LOC-004": {
+    "jiraKey": "EVR-1162",
+    "testFile": "tests/ui/facilities/deleteFacility.spec.ts",
+    "sprintId": "598",
+    "workbook": "resources/facility_test_cases.xlsx",
+    "sheet": "Facilities"
+  },
+  "TC-LOC-API-001": {
+    "jiraKey": "EVR-1163",
+    "testFile": "tests/api/facilities/createFacility.spec.ts",
+    "sprintId": "598",
+    "workbook": "resources/api_facility_test_cases.xlsx",
+    "sheet": "API Facilities"
+  },
+  "TC-LOC-API-002": {
+    "jiraKey": "EVR-1164",
+    "testFile": "tests/api/facilities/readFacility.spec.ts",
+    "sprintId": "598",
+    "workbook": "resources/api_facility_test_cases.xlsx",
+    "sheet": "API Facilities"
+  },
+  "TC-LOC-API-003": {
+    "jiraKey": "EVR-1165",
+    "testFile": "tests/api/facilities/updateFacility.spec.ts",
+    "sprintId": "598",
+    "workbook": "resources/api_facility_test_cases.xlsx",
+    "sheet": "API Facilities"
+  },
+  "TC-LOC-API-004": {
+    "jiraKey": "EVR-1166",
+    "testFile": "tests/api/facilities/deleteFacility.spec.ts",
+    "sprintId": "598",
+    "workbook": "resources/api_facility_test_cases.xlsx",
+    "sheet": "API Facilities"
+  },
+  "TC-LOC-API-005": {
+    "jiraKey": "EVR-1167",
+    "testFile": "tests/api/facilities/facilityNegative.spec.ts",
+    "sprintId": "598",
+    "workbook": "resources/api_facility_test_cases.xlsx",
+    "sheet": "API Facilities"
+  },
+  "TC-LOC-API-006": {
+    "jiraKey": "EVR-1168",
+    "testFile": "tests/api/facilities/facilityNegative.spec.ts",
+    "sprintId": "598",
+    "workbook": "resources/api_facility_test_cases.xlsx",
+    "sheet": "API Facilities"
+  },
+  "TC-LOC-API-007": {
+    "jiraKey": "EVR-1169",
+    "testFile": "tests/api/facilities/facilityNegative.spec.ts",
+    "sprintId": "598",
+    "workbook": "resources/api_facility_test_cases.xlsx",
+    "sheet": "API Facilities"
+  },
+  "TC-LOC-API-008": {
+    "jiraKey": "EVR-1170",
+    "testFile": "tests/api/facilities/facilityNegative.spec.ts",
+    "sprintId": "598",
+    "workbook": "resources/api_facility_test_cases.xlsx",
+    "sheet": "API Facilities"
+  },
+  "TC-LOC-API-009": {
+    "jiraKey": "EVR-1171",
+    "testFile": "tests/api/facilities/facilityNegative.spec.ts",
+    "sprintId": "598",
+    "workbook": "resources/api_facility_test_cases.xlsx",
+    "sheet": "API Facilities"
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "addMember": {
+        "firstname": "Automated Member",
+        "email": "priyank.ahuja@aether.com",
+        "profileName" : "Automated Admin",
+        "verifyToastMessage": "Member added successfully!"
+    },
+    "editMember": {
+        "firstname": "Automated Member Edited",
+        "email": "priyank.updated@aether.com",
+        "profileName" : "Automated edited Admin",
+        "verifyToastMessage": "Member updated successfully!"
+    },
+    "deleteMember" : {
+        "firstname": "Automated Member Deleted",
+        "email": "priyank.deleted@aether.com",
+        "profileName" : "Automated deleted Admin",
+        "verifyToastMessage": "Member deleted successfully!"
+    }
+}

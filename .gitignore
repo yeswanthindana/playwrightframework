@@ -1,0 +1,24 @@
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+/allure-results/
+/allure-report
+/.allure-results/
+/src/config/*.environment
+.docs
+/allure-report/
+/*.junit
+/*.xml
+/logs
+logs
+/*.env
+
+# Local environment files contain application, database, and Jira credentials.
+# Commit only sanitized *.env.example templates.
+/config/environments/*.env
+!/config/environments/*.env.example
+
