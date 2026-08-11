@@ -755,7 +755,7 @@ For the complete detailed workflow from manual test design through Jira executio
 
 ## Ownership and support
 
-The repository metadata identifies the **Aether Technologies Quality Engineering Team** as the maintainer. Report framework defects through the repository issue tracker and include the failing command, selected environment, relevant logs, and report evidence. Never attach secrets or saved authentication files.
+The repository metadata identifies the **Quality Engineering Team** as the maintainer. Report framework defects through the repository issue tracker and include the failing command, selected environment, relevant logs, and report evidence. Never attach secrets or saved authentication files.
 
 ## License
 
